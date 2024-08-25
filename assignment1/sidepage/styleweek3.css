@@ -1,11 +1,18 @@
 body {
+  background-color: black;
 }
 
 h1 {
+  color: #91f7fd;
+  font-family: comic sans MS;
 }
 
 h3 {
+  color: #ea336f;
+  font-family: comic sans MS;
 }
 
 p {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
