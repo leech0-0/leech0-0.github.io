@@ -114,7 +114,7 @@ let total =
 let sum = 0;
 for (let i = 0; i < 4; i++) {
   sum = sum + shoppingCart[i].price;
-  console.log("Intermediate sum", sum);
+  console.log("Sub total:", sum);
 }
 
-console.log("My shopping cart", sum);
+console.log("My shopping cart:", sum);
