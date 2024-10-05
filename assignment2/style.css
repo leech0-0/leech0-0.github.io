@@ -1,38 +1,32 @@
 :root {
-  --primary-bg-color: #f4f4f4;
-  --text-color: #333;
+  --primary-bg-color: #476e57;
+  --text-color: #1b1b1b;
   --main-bg-color: #333;
   --main-text-color: #fff;
-  --main-btn-bg-color: #938989;
+  --main-btn-bg-color: #66aa73;
 }
 
 body,
-h1,
-p,
-ul {
+h1 {
   margin: 0;
   padding: 0;
 }
 
+h1 {
+  font-family: "brush script MT", cursive;
+  font-size: 45px;
+}
+
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "trebuchet ms", sans-serif;
   background-color: var(--primary-bg-color);
   color: var(--text-color);
-  line-height: 1.6;
+  line-height: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
-  <img style="float: :right;" alt="" src="photos/green-photo-1.png" />
-}
-
-
-/* Create a container for the main content */
-.container {
-  max-width: 1000px;
-  width: 100%;
-  padding: 10px;
+  font-size: 20px;
 }
 
 /* Header styling */
@@ -42,6 +36,14 @@ header {
   padding: 10px 0;
   text-align: center;
   width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  flex-direction: row;
+  align-content: space-between;
+  padding: 20px;
 }
 
 /* Navigation styling */
@@ -109,13 +111,4 @@ nav a {
   background-color: var(--main-bg-color);
   width: 0;
   transition: width 0.3s ease;
-}
-
-/* Footer styling */
-footer {
-  background-color: var(--main-bg-color);
-  color: var(--main-text-color);
-  text-align: center;
-  padding: 10px 0;
-  width: 100%;
 }

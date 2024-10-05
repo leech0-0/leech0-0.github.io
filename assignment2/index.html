@@ -10,18 +10,36 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
       <h1>Aesthetic music to study to</h1>
       <a href="links.html"> links</a>
     </header>
 
     <h1>welcome!</h1>
-    <h3>Try another song</h3>
+    <h3>Select a song by clicking the photo</h3>
 
-    <!-- Main Content Section -->
+    <!-- selection of songs -->
+    <div class="flex-container">
+      <div>
+        <button><img src="photos/green-photo-1.jpeg" alt="song1" /></button>
+      </div>
+      <div>
+        <button><img src="photos/green-photo-3.jpeg" alt="song3" /></button>
+      </div>
+      <div>
+        <button><img src="photos/green-photo-4.jpeg" alt="song4" /></button>
+      </div>
+      <div>
+        <button><img src="photos/green-photo-5.jpeg" alt="song5" /></button>
+      </div>
+      <div>
+        <button><img src="photos/green-photo-6.jpeg" alt="song6" /></button>
+      </div>
+    </div>
+
     <main class="container">
-      <!-- Media Player - Video -->
+      <!-- Media Player - audio -->
       <div class="media-player">
         <video id="custom-video-player" controls>
           <source
@@ -38,17 +56,76 @@
               width="24"
               height="24"
             />
-            <img src="photos/green-photo-1.jpeg" alt="song1" />
-            <!--<img src="photos/green-photo-2.jpeg" alt="song2" />
-            <img src="photos/green-photo-3.jpeg" alt="song3" />
-            <img src="photos/green-photo-4.jpeg" alt="song4" />
-            <img src="photos/green-photo-5.jpeg" alt="song5" />
-            <img src="photos/green-photo-6.jpeg" alt="song6" /> 
-            -->
           </button>
+
           <!-- add the missing buttons or functionality here -->
           <div class="progress-bar">
             <span id="progress-bar-fill"></span>
+          </div>
+
+          <!-- back 30 seconds -->
+          <div class="back-30">
+            <button id="back-30s" onclick="">
+              <img
+                id="back-30-sec-img"
+                src="photos/icons8-rewind-30.png"
+                alt="skip 30 backward"
+                width="70"
+                height="30"
+              />
+            </button>
+          </div>
+
+          <!-- skip 30 seconds-->
+          <div class="skip-30">
+            <button id="skip-30s" onclick="">
+              <img
+                id="skip-30-sec-img"
+                src="photos/icons8-fast-forward-30.png"
+                alt="skip 30 forward"
+                width="70"
+                height="30"
+              />
+            </button>
+          </div>
+
+          <!-- volume mute -->
+          <div class="vmute">
+            <button id="vmute" onclick="">
+              <img
+                id="vmute"
+                src="photos/icons8-no-audio-30.png"
+                alt="vmute"
+                width="70"
+                height="30"
+              />
+            </button>
+          </div>
+
+          <!-- low volume -->
+          <div class="low volume">
+            <button id="lvolume" onclick="">
+              <img
+                id="lvolume"
+                src="photos/icons8-low-volume-30.png"
+                alt="lvolume"
+                width="70"
+                height="30"
+              />
+            </button>
+          </div>
+
+          <!-- loud volume -->
+          <div class="loudVolume">
+            <button id="loudVolume" onclick="">
+              <img
+                id="loudVolume"
+                src="photos/icons8-audio-30.png"
+                alt="loudVolume"
+                width="70"
+                height="30"
+              />
+            </button>
           </div>
         </div>
       </div>
