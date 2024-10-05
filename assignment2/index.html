@@ -22,19 +22,29 @@
     <!-- selection of songs -->
     <div class="flex-container">
       <div>
-        <button><img src="photos/green-photo-1.jpeg" alt="song1" /></button>
+        <button id="song1">
+          <img src="photos/green-photo-1.jpeg" alt="song1" />
+        </button>
       </div>
       <div>
-        <button><img src="photos/green-photo-3.jpeg" alt="song3" /></button>
+        <button id="song2">
+          <img src="photos/green-photo-3.jpeg" alt="song2" />
+        </button>
       </div>
       <div>
-        <button><img src="photos/green-photo-4.jpeg" alt="song4" /></button>
+        <button id="song3">
+          <img src="photos/green-photo-4.jpeg" alt="song3" />
+        </button>
       </div>
       <div>
-        <button><img src="photos/green-photo-5.jpeg" alt="song5" /></button>
+        <button id="song4">
+          <img src="photos/green-photo-5.jpeg" alt="song4" />
+        </button>
       </div>
       <div>
-        <button><img src="photos/green-photo-6.jpeg" alt="song6" /></button>
+        <button id="song5">
+          <img src="photos/green-photo-6.jpeg" alt="song5" />
+        </button>
       </div>
     </div>
 
@@ -42,10 +52,7 @@
       <!-- Media Player - audio -->
       <div class="media-player">
         <video id="custom-video-player" controls>
-          <source
-            src="https://youtu.be/aTYVdK3GNxI?si=JR_POuoKLwOPzxtY"
-            type="video/mp4"
-          />
+          <source src="audio/audioTrack1.mp3" type="video/mp4" />
         </video>
         <div class="custom-controls">
           <button id="play-pause-btn" onclick="togglePlayPause()">
@@ -90,10 +97,10 @@
           </div>
 
           <!-- volume mute -->
-          <div class="vmute">
-            <button id="vmute" onclick="">
+          <div class="volumeMute">
+            <button id="volumeMute" onclick="">
               <img
-                id="vmute"
+                id="volumeMute"
                 src="photos/icons8-no-audio-30.png"
                 alt="vmute"
                 width="70"
@@ -103,12 +110,12 @@
           </div>
 
           <!-- low volume -->
-          <div class="low volume">
-            <button id="lvolume" onclick="">
+          <div class="lowerVolume">
+            <button id="lowerVolume" onclick="">
               <img
-                id="lvolume"
+                id="lowerVolume"
                 src="photos/icons8-low-volume-30.png"
-                alt="lvolume"
+                alt="lowerVolume"
                 width="70"
                 height="30"
               />
