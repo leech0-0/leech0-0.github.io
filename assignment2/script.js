@@ -20,5 +20,3 @@ function updateProgressBar() {
   const value = (video.currentTime / video.duration) * 100;
   progressBar.style.width = value + "%";
 }
-
-function playAudio() {}
