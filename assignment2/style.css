@@ -23,9 +23,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+
+  <img style="float: :right;" alt="" src="photos/green-photo-1.png" />
 }
 
-/* Add additional styles as needed */
 
 /* Create a container for the main content */
 .container {
