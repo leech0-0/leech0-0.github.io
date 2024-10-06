@@ -44,6 +44,9 @@ header {
   flex-direction: row;
   padding: 20px;
   align-content: center;
+  vertical-align: middle;
+  justify-content: center;
+  position: center;
 }
 
 /* Navigation styling */
