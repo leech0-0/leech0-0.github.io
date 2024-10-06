@@ -42,8 +42,8 @@ header {
   display: flex;
   height: 200px;
   flex-direction: row;
-  align-content: space-between;
   padding: 20px;
+  align-content: center;
 }
 
 /* Navigation styling */

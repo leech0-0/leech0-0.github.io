@@ -6,7 +6,6 @@ video.removeAttribute("controls");
 
 // declaring variables - selecting one audio
 const chooseSong = [0, 1, 2, 3, 4];
-chooseSong[0] src ="audio/audioTrack1,mp3";
 
 // playPauseBtn.addEventListener("click", togglePlayPause);
 
@@ -23,9 +22,4 @@ function togglePlayPause() {
 function updateProgressBar() {
   const value = (video.currentTime / video.duration) * 100;
   progressBar.style.width = value + "%";
-}
-
-function selectSong() {
-
-
 }
