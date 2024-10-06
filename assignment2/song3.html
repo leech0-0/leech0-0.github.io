@@ -12,7 +12,7 @@
   <body>
     <!-- Header -->
     <header>
-      <h1>Aesthetic music to study to</h1>
+      <h1>Aesthetic music to study with</h1>
     </header>
 
     <h1>You are listening to Song 3!</h1>
@@ -48,7 +48,7 @@
 
           <!-- back 30 seconds -->
           <div class="back-30">
-            <button id="back-30s" onclick="">
+            <button id="back-30s" onclick="rewind30sc()">
               <img
                 id="back-30-sec-img"
                 src="photos/icons8-rewind-30.png"
@@ -61,50 +61,11 @@
 
           <!-- skip 30 seconds -->
           <div class="skip-30">
-            <button id="skip-30s" onclick="">
+            <button id="skip-30s" onclick="skip30sc()">
               <img
                 id="skip-30-sec-img"
                 src="photos/icons8-fast-forward-30.png"
                 alt="skip 30 forward"
-                width="70"
-                height="30"
-              />
-            </button>
-          </div>
-
-          <!-- volume mute -->
-          <div class="volumeMute">
-            <button id="volumeMute" onclick="">
-              <img
-                id="volumeMute"
-                src="photos/icons8-no-audio-30.png"
-                alt="vmute"
-                width="70"
-                height="30"
-              />
-            </button>
-          </div>
-
-          <!-- low volume -->
-          <div class="lowerVolume">
-            <button id="lowerVolume" onclick="">
-              <img
-                id="lowerVolume"
-                src="photos/icons8-low-volume-30.png"
-                alt="lowerVolume"
-                width="70"
-                height="30"
-              />
-            </button>
-          </div>
-
-          <!-- loud volume -->
-          <div class="loudVolume">
-            <button id="loudVolume" onclick="">
-              <img
-                id="loudVolume"
-                src="photos/icons8-audio-30.png"
-                alt="loudVolume"
                 width="70"
                 height="30"
               />

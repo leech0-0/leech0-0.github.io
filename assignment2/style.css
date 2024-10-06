@@ -46,7 +46,6 @@ header {
   align-content: center;
   vertical-align: middle;
   justify-content: center;
-  position: center;
 }
 
 /* Navigation styling */
@@ -114,4 +113,12 @@ nav a {
   background-color: var(--main-bg-color);
   width: 0;
   transition: width 0.3s ease;
+}
+
+footer {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
 }
