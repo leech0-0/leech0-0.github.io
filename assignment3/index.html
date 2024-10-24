@@ -3,12 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 3 - Character colour</title>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scriptTest.js" defer></script>
   </head>
   <body>
-    <h1>Welcome!</h1>
-    <h2>Colour the image by clicking on the colours provided</h2>
+    <!-- Adding images - default non-coloured (will change and update as the user works)-->
+    <!-- EYES-->
+    <img src="assets/eyes/eyes_defaultbig.PNG" id="default-eyes" />
+    <!-- <img src="assets/eyes/eyes_blue.PNG" id="eyes_blue" />
+    <img src="assets/eyes/eyes_brown.PNG" id="eyes_brown" />
+    <img src="assets/eyes/eyes_green.PNG" id="eyes_green" />
+    <img src="assets/eyes/eyes_grey.PNG" id="eyes_grey" />
+    <img src="assets/eyes/eyes_pastelblue.PNG" id="eyes_pastelblue" /> -->
 
-    <h3>Start!</h3>
+    <!-- HAIR-->
+    <img src="assets/hair/hair_default.PNG" id="default-hair" />
+    <img src="assets/hair/hair_blonde.PNG" id="blonde-hair" />
+    <img src="assets/hair/hair_brown.PNG" id="brown-hair" />
+    <img src="assets/hair/hair_green.PNG" id="green-hair" />
+    <img src="assets/hair/hair_purple.PNG" id="purple-hair" />
+    <img src="assets/hair/hair_red.PNG" id="red-hair" />
+
+    <!-- HAT-->
+    <img src="assets/hat/hat_default.PNG" id="default-hat" />
+    <img src="assets/hat/hat_blue.PNG" id="blue-hat" />
+    <img src="assets/hat/hat_green.PNG" id="green-hat" />
+    <img src="assets/hat/hat_pink.PNG" id="pink-hat" />
+    <img src="assets/hat/hat_red.PNG" id="red-hat" />
+    <img src="assets/hat/hat_tan.PNG" id="tan-hat" />
+
+    <!-- SKIN-->
+    <img src="assets/skin/skin_default.PNG" id="default-skin" />
+    <img src="assets/skin/skin_dark.PNG" id="dark-skin" />
+    <img src="assets/skin/skin_darktan.PNG" id="darktan-skin" />
+    <img src="assets/skin/skin_pale.PNG" id="pale-skin" />
+    <img src="assets/skin/skin_tan.PNG" id="tan-skin" />
+    <img src="assets/skin/skin_verypale.PNG" id="verypale-skin" />
+
+    <!-- PIERCINGS-->
+    <img src="assets/piercings/piercings_default.PNG" id="default-piercings" />
+    <img src="assets/piercings/piercings_gold.PNG" id="gold-piercings" />
+    <img src="assets/piercings/piercings_silver.PNG" id="silver-piercings" />
+
+    <!-- SHIRT-->
+    <img src="assets/shirt/shirt_default.PNG" id="default-shirt" />
+    <img src="assets/shirt/shirt_blue.PNG" id="blue-shirt" />
+    <img src="assets/shirt/shirt_cream.PNG" id="cream-shirt" />
+    <img src="assets/shirt/shirt_green.PNG" id="green-shirt" />
+    <img src="assets/shirt/shirt_red.PNG" id="red-shirt" />
+    <img src="assets/shirt/shirt_tan.PNG" id="tan-shirt" />
+
+    <!-- Original photo used for position -->
+    <!-- <img src="assets/blocking.PNG" alt="" id="blocking"> -->
+
+    <!-- Text segment -->
+    <h2>Select a section to colour:</h2>
+
+    <!-- Adding in buttons for selection - drop down menu test -->
+    <select id="eyeSelector" onchange="loadImage()">
+      <option value="">Eye Colour</option>
+      <option value="assets/eyes/eyes_blue.PNG">Colour 1: Blue</option>
+      <option value="assets/eyes/eyes_brown.PNG">Colour 2: Brown</option>
+      <option value="assets/eyes/eyes_green.PNG">Colour 3: Green</option>
+      <option value="assets/eyes/eyes_grey.PNG">Colour 4: Grey</option>
+      <option value="assets/eyes/eyes_pastelblue.PNG">
+        Colour 5: Pastel Blue
+      </option>
+    </select>
+
+    <div id="imageContainer"></div>
   </body>
 </html>
