@@ -1,4 +1,4 @@
-function loadEyes() {
+function loadImages() {
   const selector = document.getElementById("eyeSelector");
   const imageUrl = selector.value;
   const imageContainer = document.getElementById("imageContainer");
