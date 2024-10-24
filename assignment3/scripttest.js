@@ -1,5 +1,5 @@
-function loadImage() {
-  const selector = document.getElementById("imageSelector");
+function loadEyes() {
+  const selector = document.getElementById("eyeSelector");
   const imageUrl = selector.value;
   const imageContainer = document.getElementById("imageContainer");
 
