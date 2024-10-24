@@ -58,3 +58,25 @@ body {
   position: absolute;
   left: 670px;
 } */
+
+/* Images - Initialising so they are only available once button is pressed */
+/* EYES */
+#eye-colour-1,
+#eye-colour-2,
+#eye-colour-3,
+#eye-colour-4,
+#eye-colour-5 {
+  display: none;
+}
+
+#eyes_blue,
+#eyes_brown,
+#eyes_green,
+#eyes_grey,
+#eyes_pastelblue {
+  width: 50%;
+  position: absolute;
+  left: 670px;
+
+  display: none;
+}
