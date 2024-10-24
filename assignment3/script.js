@@ -1,3 +1,5 @@
+// **COMMENTS**
+
 //EYES
 const eyeSelectionButton = document.getElementById("button-eyes");
 const eyeColour1 = document.getElementById("eye-colour-1");
@@ -16,7 +18,7 @@ function selectEyeColourAvailable() {
   eyeColour5.style.display = "block";
 }
 
-//eyes - allowing for colour to be clicked on to swap the image
+//allowing for colour to be clicked on to swap the image
 
 //blue eyes selected
 const blueEyeSelected = document.getElementById("eyes_blue");
@@ -61,4 +63,67 @@ eyeColour5.addEventListener("click", chooseEyeColour5);
 
 function chooseEyeColour5() {
   eyes_pastelblue.style.display = "block";
+}
+
+// //HAIR
+const hairSelectionButton = document.getElementById("button-hair");
+const hairColour1 = document.getElementById("hair-colour-1");
+const hairColour2 = document.getElementById("hair-colour-2");
+const hairColour3 = document.getElementById("hair-colour-3");
+const hairColour4 = document.getElementById("hair-colour-4");
+const hairColour5 = document.getElementById("hair-colour-5");
+
+hairSelectionButton.addEventListener("click", selectHairColourAvailable);
+
+function selectHairColourAvailable() {
+  hairColour1.style.display = "block"; // all revealed once 'hair' is clicked on
+  hairColour2.style.display = "block";
+  hairColour3.style.display = "block";
+  hairColour4.style.display = "block";
+  hairColour5.style.display = "block";
+}
+
+// //blonde hair selected
+const blondeHairSelected = document.getElementById("blonde-hair");
+
+hairColour1.addEventListener("click", chooseHairColour1);
+
+function chooseHairColour1() {
+  blondeHairSelected.style.display = "block";
+}
+
+// //brown hair selected
+const brownHairSelected = document.getElementById("brown-hair");
+
+hairColour2.addEventListener("click", chooseHairColour2);
+
+function chooseHairColour2() {
+  brownHairSelected.style.display = "block";
+}
+
+// //green hair selected
+const greenHairSelected = document.getElementById("green-hair");
+
+hairColour3.addEventListener("click", chooseHairColour3);
+
+function chooseHairColour3() {
+  greenHairSelected.style.display = "block";
+}
+
+// //purple hair selected
+const purpleHairSelected = document.getElementById("purple-hair");
+
+hairColour4.addEventListener("click", chooseHairColour4);
+
+function chooseHairColour4() {
+  purpleHairSelected.style.display = "block";
+}
+
+// //red hair selected
+const redHairSelected = document.getElementById("red-hair");
+
+hairColour5.addEventListener("click", chooseHairColour5);
+
+function chooseHairColour5() {
+  redHairSelected.style.display = "block";
 }
