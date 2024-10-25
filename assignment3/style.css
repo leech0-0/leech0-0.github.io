@@ -172,7 +172,36 @@ body {
   display: none;
 }
 
-/* Testing for reset button */
-#reset-test {
-  display: none;
+/* specifics - eyes  */
+
+#buttonAnchor-Eyes {
+  width: 100px;
+  height: 60px;
+}
+
+#eye-colour-1 {
+  width: 100px;
+  height: 60px;
+  background-color: #569ca1;
+}
+
+#eye-colour-2 {
+  width: 100px;
+  height: 60px;
+  background-color: #7d4240;
+}
+#eye-colour-3 {
+  width: 100px;
+  height: 60px;
+  background-color: #d2fdd2;
+}
+#eye-colour-4 {
+  width: 100px;
+  height: 60px;
+  background-color: #a0a4ab;
+}
+#eye-colour-5 {
+  width: 100px;
+  height: 60px;
+  background-color: #abdcfb;
 }
