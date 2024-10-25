@@ -47,7 +47,6 @@ const piercingsColour1 = document.getElementById("piercings-colour-1");
 const piercingsColour2 = document.getElementById("piercings-colour-2");
 
 //function - making options available
-
 //eyes
 eyeSelectionButton.addEventListener("click", selectEyeColourAvailable);
 
@@ -285,7 +284,7 @@ function selectShirtColourAvailable() {
   piercingsColour2.style.display = "none";
 }
 
-//RESET BUTTON
+//RESET BUTTON - MAIN
 const resetButton = document.getElementById("reset");
 const resetButtonTesting = document.getElementById("reset-test");
 resetButton.addEventListener("click", resetworking);
@@ -294,53 +293,17 @@ function resetworking() {
   eyeColour1.style.display = "block"; //tester - replace
 }
 
+//reset buttons - categories
+const resetSkin = document.getElementById("reset-button-skin");
+const resetEyes = document.getElementById("reset-button-eyes");
+const resetHair = document.getElementById("reset-button-hair");
+const resetShirt = document.getElementById("reset-button-shirt");
+const resetPiercings = document.getElementById("reset-button-piercings");
+const resetHat = document.getElementById("reset-button-hat");
+
+//reset skin
+
 //allowing for colour to be clicked on to swap the image
-
-//EYES
-//blue eyes selected
-const blueEyeSelected = document.getElementById("eyes_blue");
-
-eyeColour1.addEventListener("click", chooseEyeColour1);
-
-function chooseEyeColour1() {
-  eyes_blue.style.display = "block";
-}
-
-//brown eyes selected
-const brownEyeSelected = document.getElementById("eyes_brown");
-
-eyeColour2.addEventListener("click", chooseEyeColour2);
-
-function chooseEyeColour2() {
-  eyes_brown.style.display = "block";
-}
-
-//green eyes selected
-const greenEyeSelected = document.getElementById("eyes_green");
-
-eyeColour3.addEventListener("click", chooseEyeColour3);
-
-function chooseEyeColour3() {
-  eyes_green.style.display = "block";
-}
-
-//grey eyes selected
-const greyEyeSelected = document.getElementById("eyes_grey");
-
-eyeColour4.addEventListener("click", chooseEyeColour4);
-
-function chooseEyeColour4() {
-  eyes_grey.style.display = "block";
-}
-
-//pastel blue eyes selected
-const pastelblueEyeSelected = document.getElementById("eyes_pastelblue");
-
-eyeColour5.addEventListener("click", chooseEyeColour5);
-
-function chooseEyeColour5() {
-  eyes_pastelblue.style.display = "block";
-}
 
 //HAIR
 
@@ -436,7 +399,157 @@ function chooseSkinColour5() {
 }
 
 //HAT FUNCTIONS
+//blue hat selected
+const blueHatSelected = document.getElementById("blue-hat");
+
+hatColour1.addEventListener("click", chooseHatColour1);
+
+function chooseHatColour1() {
+  blueHatSelected.style.display = "block";
+}
+
+//green hat selected
+const greenHatSelected = document.getElementById("green-hat");
+
+hatColour2.addEventListener("click", chooseHatColour2);
+
+function chooseHatColour2() {
+  greenHatSelected.style.display = "block";
+}
+
+//pink hat selected
+const pinkHatSelected = document.getElementById("pink-hat");
+
+hatColour3.addEventListener("click", chooseHatColour3);
+
+function chooseHatColour3() {
+  pinkHatSelected.style.display = "block";
+}
+
+//red hat selected
+const redHatSelected = document.getElementById("red-hat");
+
+hatColour4.addEventListener("click", chooseHatColour4);
+
+function chooseHatColour4() {
+  redHatSelected.style.display = "block";
+}
+//tan hat selected
+const tanHatSelected = document.getElementById("tan-hat");
+
+hatColour5.addEventListener("click", chooseHatColour5);
+
+function chooseHatColour5() {
+  tanHatSelected.style.display = "block";
+}
 
 //SHIRT FUNCTIONS
+//blue shirt selected
+const blueShirtSelected = document.getElementById("blue-shirt");
+
+shirtColour1.addEventListener("click", chooseShirtColour1);
+
+function chooseShirtColour1() {
+  blueShirtSelected.style.display = "block";
+}
+
+//cream shirt selected
+const creamShirtSelected = document.getElementById("cream-shirt");
+
+shirtColour2.addEventListener("click", chooseShirtColour2);
+
+function chooseShirtColour2() {
+  creamShirtSelected.style.display = "block";
+}
+
+//green shirt selected
+const greenShirtSelected = document.getElementById("green-shirt");
+
+shirtColour3.addEventListener("click", chooseShirtColour3);
+
+function chooseShirtColour3() {
+  greenShirtSelected.style.display = "block";
+}
+
+//red shirt selected
+const redShirtSelected = document.getElementById("red-shirt");
+
+shirtColour4.addEventListener("click", chooseShirtColour4);
+
+function chooseShirtColour4() {
+  redShirtSelected.style.display = "block";
+}
+
+//tan shirt selected
+const tanShirtSelected = document.getElementById("tan-shirt");
+
+shirtColour5.addEventListener("click", chooseShirtColour5);
+
+function chooseShirtColour5() {
+  tanShirtSelected.style.display = "block";
+}
 
 //PIERCING FUNCTIONS
+//gold piercings
+const goldPiercingsSelected = document.getElementById("gold-piercings");
+
+piercingsColour1.addEventListener("click", choosePiercingsColour1);
+
+function choosePiercingsColour1() {
+  goldPiercingsSelected.style.display = "block";
+}
+
+//silver piercings
+const silverPiercingsSelected = document.getElementById("silver-piercings");
+
+piercingsColour2.addEventListener("click", choosePiercingsColour2);
+
+function choosePiercingsColour2() {
+  silverPiercingsSelected.style.display = "block";
+}
+
+//EYES
+//blue eyes selected
+const blueEyeSelected = document.getElementById("eyes_blue");
+
+eyeColour1.addEventListener("click", chooseEyeColour1);
+
+function chooseEyeColour1() {
+  eyes_blue.style.display = "block";
+}
+
+//brown eyes selected
+const brownEyeSelected = document.getElementById("eyes_brown");
+
+eyeColour2.addEventListener("click", chooseEyeColour2);
+
+function chooseEyeColour2() {
+  eyes_brown.style.display = "block";
+}
+
+//green eyes selected
+const greenEyeSelected = document.getElementById("eyes_green");
+
+eyeColour3.addEventListener("click", chooseEyeColour3);
+
+function chooseEyeColour3() {
+  eyes_green.style.display = "block";
+}
+
+//grey eyes selected
+const greyEyeSelected = document.getElementById("eyes_grey");
+
+eyeColour4.addEventListener("click", chooseEyeColour4);
+
+function chooseEyeColour4() {
+  eyes_grey.style.display = "block";
+}
+
+//pastel blue eyes selected
+const pastelblueEyeSelected = document.getElementById("eyes_pastelblue");
+
+eyeColour5.addEventListener("click", chooseEyeColour5);
+
+function chooseEyeColour5() {
+  eyes_pastelblue.style.display = "block";
+}
