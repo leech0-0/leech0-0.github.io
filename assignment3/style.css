@@ -24,3 +24,100 @@ body {
   position: absolute;
   left: 670px;
 } */
+
+/* Buttons - colouring (initial colours commented are for reference */
+#button-skin {
+  background-color: pink;
+  width: 100px;
+  height: 60px;
+}
+
+#button-eyes {
+  background-color: purple;
+  width: 100px;
+  height: 60px;
+}
+
+#button-hat {
+  background-color: red;
+  width: 100px;
+  height: 60px;
+}
+
+#button-hair {
+  background-color: teal;
+  width: 100px;
+  height: 60px;
+}
+
+#button-shirt {
+  background-color: blue;
+  width: 100px;
+  height: 60px;
+}
+
+#button-piercings {
+  background-color: green;
+  width: 100px;
+  height: 60px;
+}
+
+/* Initialising buttons to be blank orignially */
+/* Eyes */
+#eye-colour-1,
+#eye-colour-2,
+#eye-colour-3,
+#eye-colour-4,
+#eye-colour-5 {
+  background-color: purple;
+  width: 100px;
+  height: 60px;
+  display: none;
+}
+
+/* hair */
+#hair-colour-1,
+#hair-colour-2,
+#hair-colour-3,
+#hair-colour-4,
+#hair-colour-5 {
+  background-color: teal;
+  display: none;
+}
+
+/* Skin */
+#skin-colour-1,
+#skin-colour-2,
+#skin-colour-3,
+#skin-colour-4,
+#skin-colour-5 {
+  background-color: pink;
+  display: none;
+}
+
+/* Hat */
+#hat-colour-1,
+#hat-colour-2,
+#hat-colour-3,
+#hat-colour-4,
+#hat-colour-5 {
+  background-color: red;
+  display: none;
+}
+
+/* piercings */
+#piercings-colour-1,
+#piercings-colour-2 {
+  background-color: green;
+  display: none;
+}
+
+/* shirt */
+#shirt-colour-1,
+#shirt-colour-2,
+#shirt-colour-3,
+#shirt-colour-4,
+#shirt-colour-5 {
+  background-color: blue;
+  display: none;
+}
