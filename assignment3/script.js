@@ -390,6 +390,50 @@ function chooseHairColour5() {
 }
 
 //SKIN FUNCTIONS
+// very pale skin selected
+const veryPaleSkinSelected = document.getElementById("verypale-skin");
+
+skinColour1.addEventListener("click", chooseSkinColour1);
+
+function chooseSkinColour1() {
+  veryPaleSkinSelected.style.display = "block";
+}
+
+// pale skin selected
+const paleSkinSelected = document.getElementById("pale-skin");
+
+skinColour2.addEventListener("click", chooseSkinColour2);
+
+function chooseSkinColour2() {
+  paleSkinSelected.style.display = "block";
+}
+
+//tan skin selected
+const tanSkinSelected = document.getElementById("tan-skin");
+
+skinColour3.addEventListener("click", chooseSkinColour3);
+
+function chooseSkinColour3() {
+  tanSkinSelected.style.display = "block";
+}
+
+//dark tan skin selected
+const darkTanSkinSelected = document.getElementById("darktan-skin");
+
+skinColour4.addEventListener("click", chooseSkinColour4);
+
+function chooseSkinColour4() {
+  darkTanSkinSelected.style.display = "block";
+}
+
+//dark skin selected
+const darkSkinSelected = document.getElementById("dark-skin");
+
+skinColour5.addEventListener("click", chooseSkinColour5);
+
+function chooseSkinColour5() {
+  darkSkinSelected.style.display = "block";
+}
 
 //HAT FUNCTIONS
 
