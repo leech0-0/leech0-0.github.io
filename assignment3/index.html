@@ -8,7 +8,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <!-- Adding images - default non-coloured (will change and update as the user works)-->
+    <!-- Adding images - starts default (will change and update as the user works)-->
     <!-- EYES-->
     <img src="assets/eyes/eyes_defaultbig.PNG" id="default-eyes" />
     <img src="assets/eyes/eyes_blue.PNG" id="eyes_blue" />
@@ -61,14 +61,26 @@
     <h2>Select a section to colour:</h2>
 
     <!-- Adding in buttons for selection - OLD -->
-    <button id="button-skin">Skin</button>
+    <button id="button-skin" onclick="selectSkinColourAvailable()">Skin</button>
     <button id="button-eyes" onclick="selectEyeColourAvailable()">Eyes</button>
-    <button id="button-hair">Hair</button>
-    <button id="button-hat">Hat</button>
-    <button id="button-shirt">Shirt</button>
-    <button id="button-piercings">Piercings</button>
+    <button id="button-hair" onclick="selectHairColourAvailable()">Hair</button>
+    <button id="button-hat" onclick="selectHatColourAvailable()">Hat</button>
+    <button id="button-shirt" onclick="selectShirtColourAvailable()">
+      Shirt
+    </button>
+    <button id="button-piercings" onclick="selectPiercingsColourAvailable()">
+      Piercings
+    </button>
     <button id="reset" onclick="resetworking()">RESET</button>
     <button id="reset-test">Reset button works!</button>
+
+    <!-- reset buttons for categories -->
+    <button id="reset-button-skin">Reset Skin</button>
+    <button id="reset-button-eyes">Reset Eyes</button>
+    <button id="reset-button-hair">Reset Hair</button>
+    <button id="reset-button-hat">Reset Hat</button>
+    <button id="reset-button-shirt">Reset Shirt</button>
+    <button id="reset-button-piercings">Reset Piercings</button>
 
     <!-- Adding colours in (as buttons) for selection (once button is pressed)-->
     <!-- EYES -->

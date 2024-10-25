@@ -68,7 +68,8 @@ body {
 #eye-colour-2,
 #eye-colour-3,
 #eye-colour-4,
-#eye-colour-5 {
+#eye-colour-5,
+#reset-button-eyes {
   background-color: purple;
   width: 100px;
   height: 60px;
@@ -80,7 +81,8 @@ body {
 #hair-colour-2,
 #hair-colour-3,
 #hair-colour-4,
-#hair-colour-5 {
+#hair-colour-5,
+#reset-button-hair {
   background-color: teal;
   width: 100px;
   height: 60px;
@@ -92,7 +94,8 @@ body {
 #skin-colour-2,
 #skin-colour-3,
 #skin-colour-4,
-#skin-colour-5 {
+#skin-colour-5,
+#reset-button-skin {
   background-color: pink;
   width: 100px;
   height: 60px;
@@ -104,7 +107,8 @@ body {
 #hat-colour-2,
 #hat-colour-3,
 #hat-colour-4,
-#hat-colour-5 {
+#hat-colour-5,
+#reset-button-hat {
   background-color: red;
   width: 100px;
   height: 60px;
@@ -113,7 +117,8 @@ body {
 
 /* piercings */
 #piercings-colour-1,
-#piercings-colour-2 {
+#piercings-colour-2,
+#reset-button-piercings {
   background-color: green;
   width: 100px;
   height: 60px;
@@ -125,7 +130,8 @@ body {
 #shirt-colour-2,
 #shirt-colour-3,
 #shirt-colour-4,
-#shirt-colour-5 {
+#shirt-colour-5,
+#reset-button-shirt {
   background-color: blue;
   width: 100px;
   height: 60px;
