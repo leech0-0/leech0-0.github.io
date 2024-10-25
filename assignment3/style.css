@@ -3,53 +3,19 @@ body {
 }
 
 /* Setting images to form together */
-/* EYES */
-#default-eyes {
-  width: 50%;
-
-  position: absolute;
-  left: 670px;
-}
-
-/* HAIR */
-#default-hair {
-  width: 50%;
-
-  position: absolute;
-  left: 670px;
-}
-
-/* HAT */
-#default-hat {
-  width: 50%;
-
-  position: absolute;
-  left: 670px;
-}
-
-/* SKIN */
-#default-skin {
-  width: 50%;
-
-  position: absolute;
-  left: 670px;
-}
-
-/* PIERCINGS */
-#default-piercings {
-  width: 50%;
-
-  position: absolute;
-  left: 670px;
-}
-
-/* SHIRT */
+/* Initial blank photo */
+#default-eyes,
+#default-hair,
+#default-hat,
+#default-skin,
+#default-piercings,
 #default-shirt {
   width: 50%;
 
   position: absolute;
   left: 670px;
 }
+
 /* Original blocking used for position */
 /* #blocking {
   border: 1px solid;
@@ -58,11 +24,3 @@ body {
   position: absolute;
   left: 670px;
 } */
-
-img {
-  width: 50%;
-
-  position: absolute;
-  left: 670px;
-  top: -20px;
-}
