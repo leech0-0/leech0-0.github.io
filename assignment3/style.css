@@ -82,6 +82,8 @@ body {
 #hair-colour-4,
 #hair-colour-5 {
   background-color: teal;
+  width: 100px;
+  height: 60px;
   display: none;
 }
 
@@ -92,6 +94,8 @@ body {
 #skin-colour-4,
 #skin-colour-5 {
   background-color: pink;
+  width: 100px;
+  height: 60px;
   display: none;
 }
 
@@ -102,6 +106,8 @@ body {
 #hat-colour-4,
 #hat-colour-5 {
   background-color: red;
+  width: 100px;
+  height: 60px;
   display: none;
 }
 
@@ -109,6 +115,8 @@ body {
 #piercings-colour-1,
 #piercings-colour-2 {
   background-color: green;
+  width: 100px;
+  height: 60px;
   display: none;
 }
 
@@ -119,5 +127,46 @@ body {
 #shirt-colour-4,
 #shirt-colour-5 {
   background-color: blue;
+  width: 100px;
+  height: 60px;
+  display: none;
+}
+
+/* Images - declaring as invisible to start */
+#eyes_blue,
+#eyes_brown,
+#eyes_green,
+#eyes_grey,
+#eyes_pastelblue,
+#blonde-hair,
+#brown-hair,
+#green-hair,
+#purple-hair,
+#red-hair,
+#blue-hat,
+#green-hat,
+#pink-hat,
+#red-hat,
+#tan-hat,
+#dark-skin,
+#darktan-skin,
+#pale-skin,
+#tan-skin,
+#verypale-skin,
+#gold-piercings,
+#silver-piercings,
+#blue-shirt,
+#cream-shirt,
+#green-shirt,
+#red-shirt,
+#tan-shirt {
+  width: 50%;
+  position: absolute;
+  left: 670px;
+  display: none;
+}
+
+/* Testing for reset button */
+#reset-test {
   display: none;
 }
