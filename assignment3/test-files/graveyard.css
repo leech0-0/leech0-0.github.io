@@ -64,7 +64,7 @@ body {
 
 /* Initialising buttons to be blank orignially */
 /* Eyes */
-#eye-colour-1,
+/* #eye-colour-1,
 #eye-colour-2,
 #eye-colour-3,
 #eye-colour-4,
@@ -74,7 +74,7 @@ body {
   width: 100px;
   height: 60px;
   display: none;
-}
+} */
 
 /* hair */
 #hair-colour-1,
@@ -179,7 +179,7 @@ body {
   flex-direction: column;
 }
 
-#eye-colour-1 {
+/* #eye-colour-1 {
   width: 100px;
   height: 60px;
   background-color: #569ca1;
@@ -204,7 +204,7 @@ body {
   width: 100px;
   height: 60px;
   background-color: #abdcfb;
-}
+} */
 
 /* Section Dropdown menu styling */
 .dropdowneyes {
@@ -242,5 +242,5 @@ body {
 }
 
 .dropdowneyes a:hover {
-  background-color: #754542;
+  background-color: purple;
 }
