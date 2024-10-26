@@ -9,6 +9,7 @@ const eyeColour3 = document.getElementById("eye-colour-3");
 const eyeColour4 = document.getElementById("eye-colour-4");
 const eyeColour5 = document.getElementById("eye-colour-5");
 
+//function - making the buttons visible
 //eyes
 eyeSelectionButton.addEventListener("click", selectEyeColourAvailable);
 

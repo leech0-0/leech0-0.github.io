@@ -3,54 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Loader with Dropdown</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin-top: 50px;
-      }
-      img {
-        margin-top: 20px;
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
+    <title>Image Loader</title>
   </head>
   <body>
-    <h1>Select an Image</h1>
-    <select id="imageSelector" onchange="loadImage()">
-      <option value="">--Choose an option--</option>
-      <option
-        value="https://i.pinimg.com/736x/2d/94/fa/2d94fa9c05c11ce0329863d35bdd243b.jpg"
-      >
-        Image 1
-      </option>
-      <option value="assets/eyes/eyes_blue.PNG">Image 2</option>
-      <option value="https://via.placeholder.com/300?text=Image+3">
-        Image 3
-      </option>
-    </select>
+    <button id="button1">Load Image 1</button>
+    <button id="button2">Load Image 2</button>
+    <br />
+    <img id="image" src="" alt="Loaded Image" style="display: none" />
 
-    <div id="imageContainer"></div>
-
-    <script>
-      function loadImage() {
-        const selector = document.getElementById("imageSelector");
-        const imageUrl = selector.value;
-        const imageContainer = document.getElementById("imageContainer");
-
-        // Clear previous image
-        imageContainer.innerHTML = "";
-
-        // If an image is selected, create an img element and set its src
-        if (imageUrl) {
-          const img = document.createElement("img");
-          img.src = imageUrl;
-          img.alt = "Selected Image";
-          imageContainer.appendChild(img);
-        }
-      }
-    </script>
+    <script src="script.js" defer></script>
   </body>
 </html>

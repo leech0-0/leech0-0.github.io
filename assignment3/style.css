@@ -174,9 +174,9 @@ body {
 
 /* specifics - eyes  */
 
-#buttonAnchor-Eyes {
-  width: 100px;
-  height: 60px;
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
 #eye-colour-1 {
