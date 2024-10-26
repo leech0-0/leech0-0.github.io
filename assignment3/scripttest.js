@@ -41,6 +41,6 @@ eyeColour4.addEventListener("click", function chooseEyeColour4() {
   greyEyeSelected.style.display = "block";
 });
 
-eyeColour2.addEventListener("click", function chooseEyeColour5() {
+eyeColour5.addEventListener("click", function chooseEyeColour5() {
   pastelblueEyeSelected.style.display = "block";
 });
