@@ -293,6 +293,11 @@ hairColour1.addEventListener("click", chooseHairColour1);
 
 function chooseHairColour1() {
   blondeHairSelected.style.display = "block";
+
+  brownHairSelected.style.display = "none";
+  greenHairSelected.style.display = "none";
+  purpleHairSelected.style.display = "none";
+  redHairSelected.style.display = "none";
 }
 
 // //brown hair selected
@@ -302,6 +307,11 @@ hairColour2.addEventListener("click", chooseHairColour2);
 
 function chooseHairColour2() {
   brownHairSelected.style.display = "block";
+
+  blondeHairSelected.style.display = "none";
+  greenHairSelected.style.display = "none";
+  purpleHairSelected.style.display = "none";
+  redHairSelected.style.display = "none";
 }
 
 // //green hair selected
@@ -311,6 +321,11 @@ hairColour3.addEventListener("click", chooseHairColour3);
 
 function chooseHairColour3() {
   greenHairSelected.style.display = "block";
+
+  brownHairSelected.style.display = "none";
+  blondeHairSelected.style.display = "none";
+  purpleHairSelected.style.display = "none";
+  redHairSelected.style.display = "none";
 }
 
 // //purple hair selected
@@ -320,6 +335,11 @@ hairColour4.addEventListener("click", chooseHairColour4);
 
 function chooseHairColour4() {
   purpleHairSelected.style.display = "block";
+
+  brownHairSelected.style.display = "none";
+  greenHairSelected.style.display = "none";
+  blondeHairSelected.style.display = "none";
+  redHairSelected.style.display = "none";
 }
 
 // //red hair selected
@@ -329,6 +349,11 @@ hairColour5.addEventListener("click", chooseHairColour5);
 
 function chooseHairColour5() {
   redHairSelected.style.display = "block";
+
+  brownHairSelected.style.display = "none";
+  greenHairSelected.style.display = "none";
+  purpleHairSelected.style.display = "none";
+  blondeHairSelected.style.display = "none";
 }
 
 //SKIN FUNCTIONS
@@ -339,6 +364,11 @@ skinColour1.addEventListener("click", chooseSkinColour1);
 
 function chooseSkinColour1() {
   veryPaleSkinSelected.style.display = "block";
+
+  paleSkinSelected.style.display = "none";
+  tanSkinSelected.style.display = "none";
+  darkTanSkinSelected.style.display = "none";
+  darkSkinSelected.style.display = "none";
 }
 
 // pale skin selected
@@ -348,6 +378,11 @@ skinColour2.addEventListener("click", chooseSkinColour2);
 
 function chooseSkinColour2() {
   paleSkinSelected.style.display = "block";
+
+  veryPaleSkinSelected.style.display = "none";
+  tanSkinSelected.style.display = "none";
+  darkTanSkinSelected.style.display = "none";
+  darkSkinSelected.style.display = "none";
 }
 
 //tan skin selected
@@ -357,6 +392,11 @@ skinColour3.addEventListener("click", chooseSkinColour3);
 
 function chooseSkinColour3() {
   tanSkinSelected.style.display = "block";
+
+  paleSkinSelected.style.display = "none";
+  veryPaleSkinSelected.style.display = "none";
+  darkTanSkinSelected.style.display = "none";
+  darkSkinSelected.style.display = "none";
 }
 
 //dark tan skin selected
@@ -366,6 +406,11 @@ skinColour4.addEventListener("click", chooseSkinColour4);
 
 function chooseSkinColour4() {
   darkTanSkinSelected.style.display = "block";
+
+  paleSkinSelected.style.display = "none";
+  tanSkinSelected.style.display = "none";
+  veryPaleSkinSelected.style.display = "none";
+  darkSkinSelected.style.display = "none";
 }
 
 //dark skin selected
@@ -375,6 +420,11 @@ skinColour5.addEventListener("click", chooseSkinColour5);
 
 function chooseSkinColour5() {
   darkSkinSelected.style.display = "block";
+
+  paleSkinSelected.style.display = "none";
+  tanSkinSelected.style.display = "none";
+  veryPaleSkinSelected.style.display = "none";
+  darkTanSkinSelected.style.display = "none";
 }
 
 //HAT FUNCTIONS
@@ -385,6 +435,11 @@ hatColour1.addEventListener("click", chooseHatColour1);
 
 function chooseHatColour1() {
   blueHatSelected.style.display = "block";
+
+  greenHatSelected.style.display = "none";
+  pinkHatSelected.style.display = "none";
+  redHatSelected.style.display = "none";
+  tanHatSelected.style.display = "none";
 }
 
 //green hat selected
@@ -394,6 +449,11 @@ hatColour2.addEventListener("click", chooseHatColour2);
 
 function chooseHatColour2() {
   greenHatSelected.style.display = "block";
+
+  blueHatSelected.style.display = "none";
+  pinkHatSelected.style.display = "none";
+  redHatSelected.style.display = "none";
+  tanHatSelected.style.display = "none";
 }
 
 //pink hat selected
@@ -403,6 +463,11 @@ hatColour3.addEventListener("click", chooseHatColour3);
 
 function chooseHatColour3() {
   pinkHatSelected.style.display = "block";
+
+  greenHatSelected.style.display = "none";
+  blueHatSelected.style.display = "none";
+  redHatSelected.style.display = "none";
+  tanHatSelected.style.display = "none";
 }
 
 //red hat selected
@@ -412,6 +477,11 @@ hatColour4.addEventListener("click", chooseHatColour4);
 
 function chooseHatColour4() {
   redHatSelected.style.display = "block";
+
+  greenHatSelected.style.display = "none";
+  pinkHatSelected.style.display = "none";
+  blueHatSelected.style.display = "none";
+  tanHatSelected.style.display = "none";
 }
 //tan hat selected
 const tanHatSelected = document.getElementById("tan-hat");
@@ -420,6 +490,11 @@ hatColour5.addEventListener("click", chooseHatColour5);
 
 function chooseHatColour5() {
   tanHatSelected.style.display = "block";
+
+  greenHatSelected.style.display = "none";
+  pinkHatSelected.style.display = "none";
+  redHatSelected.style.display = "none";
+  blueHatSelected.style.display = "none";
 }
 
 //SHIRT FUNCTIONS
@@ -430,6 +505,11 @@ shirtColour1.addEventListener("click", chooseShirtColour1);
 
 function chooseShirtColour1() {
   blueShirtSelected.style.display = "block";
+
+  creamShirtSelected.style.display = "none";
+  greenShirtSelected.style.display = "none";
+  redShirtSelected.style.display = "none";
+  tanShirtSelected.style.display = "none";
 }
 
 //cream shirt selected
@@ -439,6 +519,11 @@ shirtColour2.addEventListener("click", chooseShirtColour2);
 
 function chooseShirtColour2() {
   creamShirtSelected.style.display = "block";
+
+  blueShirtSelected.style.display = "none";
+  greenShirtSelected.style.display = "none";
+  redShirtSelected.style.display = "none";
+  tanShirtSelected.style.display = "none";
 }
 
 //green shirt selected
@@ -448,6 +533,11 @@ shirtColour3.addEventListener("click", chooseShirtColour3);
 
 function chooseShirtColour3() {
   greenShirtSelected.style.display = "block";
+
+  creamShirtSelected.style.display = "none";
+  blueShirtSelected.style.display = "none";
+  redShirtSelected.style.display = "none";
+  tanShirtSelected.style.display = "none";
 }
 
 //red shirt selected
@@ -457,6 +547,11 @@ shirtColour4.addEventListener("click", chooseShirtColour4);
 
 function chooseShirtColour4() {
   redShirtSelected.style.display = "block";
+
+  creamShirtSelected.style.display = "none";
+  greenShirtSelected.style.display = "none";
+  blueShirtSelected.style.display = "none";
+  tanShirtSelected.style.display = "none";
 }
 
 //tan shirt selected
@@ -466,6 +561,11 @@ shirtColour5.addEventListener("click", chooseShirtColour5);
 
 function chooseShirtColour5() {
   tanShirtSelected.style.display = "block";
+
+  creamShirtSelected.style.display = "none";
+  greenShirtSelected.style.display = "none";
+  redShirtSelected.style.display = "none";
+  blueShirtSelected.style.display = "none";
 }
 
 //PIERCING FUNCTIONS
@@ -476,6 +576,7 @@ piercingsColour1.addEventListener("click", choosePiercingsColour1);
 
 function choosePiercingsColour1() {
   goldPiercingsSelected.style.display = "block";
+  silverPiercingsSelected.style.display = "none";
 }
 
 //silver piercings
@@ -485,6 +586,7 @@ piercingsColour2.addEventListener("click", choosePiercingsColour2);
 
 function choosePiercingsColour2() {
   silverPiercingsSelected.style.display = "block";
+  goldPiercingsSelected.style.display = "none";
 }
 
 //EYES
@@ -494,7 +596,12 @@ const blueEyeSelected = document.getElementById("eyes_blue");
 eyeColour1.addEventListener("click", chooseEyeColour1);
 
 function chooseEyeColour1() {
-  eyes_blue.style.display = "block";
+  blueEyeSelected.style.display = "block";
+
+  brownEyeSelected.style.display = "none";
+  greenEyeSelected.style.display = "none";
+  greyEyeSelected.style.display = "none";
+  pastelblueEyeSelected.style.display = "none";
 }
 
 //brown eyes selected
@@ -503,7 +610,12 @@ const brownEyeSelected = document.getElementById("eyes_brown");
 eyeColour2.addEventListener("click", chooseEyeColour2);
 
 function chooseEyeColour2() {
-  eyes_brown.style.display = "block";
+  brownEyeSelected.style.display = "block";
+
+  blueEyeSelected.style.display = "none";
+  greenEyeSelected.style.display = "none";
+  greyEyeSelected.style.display = "none";
+  pastelblueEyeSelected.style.display = "none";
 }
 
 //green eyes selected
@@ -512,7 +624,12 @@ const greenEyeSelected = document.getElementById("eyes_green");
 eyeColour3.addEventListener("click", chooseEyeColour3);
 
 function chooseEyeColour3() {
-  eyes_green.style.display = "block";
+  greenEyeSelected.style.display = "block";
+
+  brownEyeSelected.style.display = "none";
+  blueEyeSelected.style.display = "none";
+  greyEyeSelected.style.display = "none";
+  pastelblueEyeSelected.style.display = "none";
 }
 
 //grey eyes selected
@@ -521,7 +638,12 @@ const greyEyeSelected = document.getElementById("eyes_grey");
 eyeColour4.addEventListener("click", chooseEyeColour4);
 
 function chooseEyeColour4() {
-  eyes_grey.style.display = "block";
+  greyEyeSelected.style.display = "block";
+
+  brownEyeSelected.style.display = "none";
+  greenEyeSelected.style.display = "none";
+  blueEyeSelected.style.display = "none";
+  pastelblueEyeSelected.style.display = "none";
 }
 
 //pastel blue eyes selected
@@ -530,5 +652,10 @@ const pastelblueEyeSelected = document.getElementById("eyes_pastelblue");
 eyeColour5.addEventListener("click", chooseEyeColour5);
 
 function chooseEyeColour5() {
-  eyes_pastelblue.style.display = "block";
+  pastelblueEyeSelected.style.display = "block";
+
+  brownEyeSelected.style.display = "none";
+  greenEyeSelected.style.display = "none";
+  greyEyeSelected.style.display = "none";
+  blueEyeSelected.style.display = "none";
 }
