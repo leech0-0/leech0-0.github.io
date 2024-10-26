@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(237, 224, 200);
+  background-color: #f2f2f2;
 }
 
 /* Setting images to form together */
@@ -27,39 +27,49 @@ body {
 
 /* Buttons - colouring (initial colours commented are for reference */
 #button-skin {
-  background-color: pink;
+  background-color: #708c82;
   width: 100px;
   height: 60px;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 
 #button-eyes {
-  background-color: purple;
+  background-color: #708c82;
   width: 100px;
   height: 60px;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 
 #button-hat {
-  background-color: red;
+  background-color: #708c82;
   width: 100px;
   height: 60px;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 
 #button-hair {
-  background-color: teal;
+  background-color: #708c82;
   width: 100px;
   height: 60px;
 }
 
 #button-shirt {
-  background-color: blue;
+  background-color: #708c82;
   width: 100px;
   height: 60px;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 
 #button-piercings {
-  background-color: green;
+  background-color: #708c82;
   width: 100px;
   height: 60px;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 
 /* Initialising buttons to be blank orignially */
@@ -70,7 +80,6 @@ body {
 #eye-colour-4,
 #eye-colour-5,
 #reset-button-eyes {
-  background-color: purple;
   width: 100px;
   height: 60px;
   display: none;
@@ -83,7 +92,6 @@ body {
 #hair-colour-4,
 #hair-colour-5,
 #reset-button-hair {
-  background-color: teal;
   width: 100px;
   height: 60px;
   display: none;
@@ -96,7 +104,6 @@ body {
 #skin-colour-4,
 #skin-colour-5,
 #reset-button-skin {
-  background-color: pink;
   width: 100px;
   height: 60px;
   display: none;
@@ -109,7 +116,6 @@ body {
 #hat-colour-4,
 #hat-colour-5,
 #reset-button-hat {
-  background-color: red;
   width: 100px;
   height: 60px;
   display: none;
@@ -119,7 +125,6 @@ body {
 #piercings-colour-1,
 #piercings-colour-2,
 #reset-button-piercings {
-  background-color: green;
   width: 100px;
   height: 60px;
   display: none;
@@ -132,7 +137,6 @@ body {
 #shirt-colour-4,
 #shirt-colour-5,
 #reset-button-shirt {
-  background-color: blue;
   width: 100px;
   height: 60px;
   display: none;
@@ -183,29 +187,89 @@ body {
   width: 100px;
   height: 60px;
   background-color: #569ca1;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 
 #eye-colour-2 {
   width: 100px;
   height: 60px;
   background-color: #7d4240;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 #eye-colour-3 {
   width: 100px;
   height: 60px;
   background-color: #d2fdd2;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 #eye-colour-4 {
   width: 100px;
   height: 60px;
   background-color: #a0a4ab;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 #eye-colour-5 {
   width: 100px;
   height: 60px;
   background-color: #abdcfb;
+  font-family: "montserrat";
+  font-weight: bold;
 }
 
-.flex-container {
-  flex-direction: row;
+body {
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+#hair-colour-1 {
+  width: 100px;
+  height: 60px;
+  background-color: #abdcfb;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+#hair-colour-2 {
+  width: 100px;
+  height: 60px;
+  background-color: #abdcfb;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+#hair-colour-3 {
+  width: 100px;
+  height: 60px;
+  background-color: #abdcfb;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+#hair-colour-1 {
+  width: 100px;
+  height: 60px;
+  background-color: #abdcfb;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+#hair-colour-4 {
+  width: 100px;
+  height: 60px;
+  background-color: #abdcfb;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+#hair-colour-5 {
+  width: 100px;
+  height: 60px;
+  background-color: #abdcfb;
+  font-family: "montserrat";
+  font-weight: bold;
 }
