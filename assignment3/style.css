@@ -1,5 +1,8 @@
 body {
   background-color: #f2f2f2;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: bolder;
 }
 
 /* Setting images to form together */
@@ -60,6 +63,8 @@ body {
   background-color: #708c82;
   width: 100px;
   height: 60px;
+  font-family: "montserrat";
+  font-weight: bold;
   border: none;
   border-radius: 12px;
 }
@@ -188,13 +193,7 @@ body {
   display: none;
 }
 
-/* specifics - eyes  */
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
-
+/* specifics */
 #eye-colour-1 {
   width: 100px;
   height: 60px;
@@ -242,16 +241,10 @@ body {
   border-radius: 12px;
 }
 
-body {
-  font-family: "Montserrat";
-  font-size: 22px;
-  font-weight: bolder;
-}
-
 #hair-colour-1 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #deceaa;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -261,7 +254,7 @@ body {
 #hair-colour-2 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #806555;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -271,17 +264,7 @@ body {
 #hair-colour-3 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
-  font-family: "montserrat";
-  font-weight: bold;
-  border: none;
-  border-radius: 12px;
-}
-
-#hair-colour-1 {
-  width: 100px;
-  height: 60px;
-  background-color: #abdcfb;
+  background-color: #5e8a6d;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -291,7 +274,7 @@ body {
 #hair-colour-4 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #504447;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -301,7 +284,7 @@ body {
 #hair-colour-5 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #80343d;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -311,7 +294,7 @@ body {
 #skin-colour-1 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #f8e8e5;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -321,7 +304,7 @@ body {
 #skin-colour-2 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #f7e5d6;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -331,7 +314,7 @@ body {
 #skin-colour-3 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #e0bfa3;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -341,7 +324,7 @@ body {
 #skin-colour-4 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #ae8865;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -351,7 +334,7 @@ body {
 #skin-colour-5 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #755947;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -361,7 +344,7 @@ body {
 #hat-colour-1 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #999aa9;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -371,7 +354,7 @@ body {
 #hat-colour-2 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #7eac8d;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -381,7 +364,7 @@ body {
 #hat-colour-3 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #d5a297;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -391,7 +374,7 @@ body {
 #hat-colour-4 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #9a3838;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -401,7 +384,7 @@ body {
 #hat-colour-5 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #c98e66;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -411,7 +394,7 @@ body {
 #shirt-colour-1 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #688ac7;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -421,7 +404,7 @@ body {
 #shirt-colour-2 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #fae6e3;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -431,7 +414,7 @@ body {
 #shirt-colour-3 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #5c774d;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -441,7 +424,7 @@ body {
 #shirt-colour-4 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #9b3a31;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -451,7 +434,7 @@ body {
 #shirt-colour-5 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #c48f71;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -461,7 +444,7 @@ body {
 #piercings-colour-1 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #c1a76f;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
@@ -471,7 +454,7 @@ body {
 #piercings-colour-2 {
   width: 100px;
   height: 60px;
-  background-color: #abdcfb;
+  background-color: #b8b7b8;
   font-family: "montserrat";
   font-weight: bold;
   border: none;
