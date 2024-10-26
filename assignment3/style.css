@@ -1,8 +1,12 @@
+/* The character I created was in my own art style. When I was working on it, I did create a few sets of colour palettes that could work for the character, which was manipulated so there was no ‘right’ answer for users to select on. I wanted this to be similar to Picrew, which is an avatar creation website with hundreds of artists and different styles, which inspired me to create characters / visualise the ideas for drawings I wanted to work on.   */
+
 body {
   background-color: #f2f2f2;
   font-family: "Montserrat";
   font-size: 22px;
   font-weight: bolder;
+  /* The off-white background I used was utilised to create the minimalist illusion of a ‘blank canvas’. This would also reduce the likelihood of a ‘right’ answer as a darker or more vibrant colour could influence users to go for a specific colour to match the background. My intention in creating a ‘blank canvas’ is to inspire people to use their creativity and create their own colour palettes. */
+  /* The buttons were rounded to aid in the minimalist style. */
 }
 
 /* Setting images to form together */
@@ -37,6 +41,8 @@ body {
   font-weight: bold;
   border: none;
   border-radius: 12px;
+
+  /* The sage green colour used for the buttons were inspired to keep in mind with the ‘cottagecore’ theme that I like to explore within my drawings, hence the mushroom hat on the character. */
 }
 
 #button-eyes {
@@ -102,6 +108,7 @@ body {
   display: none;
   position: relative;
   left: 105px;
+  /* In terms of position, the coloured buttons were brought underneath the categories for visual hierarchy as users can easily see what the colours will impact. For example: the hair colours being positioned underneath the ‘hair’ button reduces the likelihood of confusion before a user has clicked on them. */
 }
 
 /* hair */

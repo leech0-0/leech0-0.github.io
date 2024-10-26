@@ -1,4 +1,6 @@
-// **COMMENTS**
+// For this project I had 6 sections of the drawing with 5 colours for each section (with the exception of piercings which only has 2). This was to provide the users with a few different options.
+
+//The code itself is quite repetitive as each section needed 5 buttons that had the same function; changing the colour of a particular section in the drawing.
 
 //declaring buttons
 //eyes
@@ -84,6 +86,8 @@ function selectEyeColourAvailable() {
   shirtColour3.style.display = "none";
   shirtColour4.style.display = "none";
   shirtColour5.style.display = "none";
+
+  //Clicking on these category buttons will drop down the 5 buttons associated with that section; for example; clicking on the hair button will drop down the 5 colours for hair. The other options have to have their display to ‘none’ to ensure there are only the options available for the section the user has clicked on.
 }
 
 //hair
@@ -298,6 +302,8 @@ function chooseHairColour1() {
   greenHairSelected.style.display = "none";
   purpleHairSelected.style.display = "none";
   redHairSelected.style.display = "none";
+
+  //The images also needed to be ‘hidden’ when they are not active to make sure the users can select all buttons without having to have an ‘undo’ button or refresh the page. This also allows for more experimentation for users.
 }
 
 // //brown hair selected
